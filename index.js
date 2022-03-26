@@ -53,7 +53,7 @@ app.use(express.static('public'));
 /**
  * Add routes.
  */
-app.use(require('./routers/pages'));
+app.use(require('./routers/shop'));
 /**
  * Cache
  */

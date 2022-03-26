@@ -67,10 +67,8 @@ app.use(require('./routers/pages'));
 /**
  * Create server.
  */
-var server = app.listen(7000, function() {
-  console.log('Running server');
-})
-/**
- * Auto reload server.
- */
-reload(server, app);
+
+ const port = process.env.PORT || '3000';
+ app.listen(port, () => {
+  console.log('Listening..');
+});

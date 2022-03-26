@@ -3,7 +3,7 @@ let session = require('express-session');
 let route = express.Router();
 let db = require('../database/config');
 
-route.get('/shop', function(req, res) {
+route.get('/', function(req, res) {
   res.render('home', {title: 'Home'});
 });
 

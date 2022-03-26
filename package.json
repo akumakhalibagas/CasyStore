@@ -4,7 +4,7 @@
   "description": "It's an ecommerce app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e js,css,ejs,json index.js"
+    "start": "node index.js"
   },
   "author": "Krishna Paul",
   "license": "ISC",

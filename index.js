@@ -19,10 +19,6 @@ var app = express();
  */
 var reload = require('reload');
 /**
- * For set port or default 7000 posr.
- */
-app.set('port', process.env.POST || 7000);
-/**
  * Set view engine & point a view folder.
  */
 app.set('view engine', 'ejs');
